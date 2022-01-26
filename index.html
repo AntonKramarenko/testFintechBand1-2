@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Task 1/2 Fintech Band</title>
+  </head>
+  <body>
+    <section>
+      <!-- task 1 -->
+      <div class="section-task">
+        <div class="section-task1_task">
+          Task1: Чистый JS: написать функцию форматирования для суммы, пример:
+          "3123123.00" -> "3 123 123.00"
+        </div>
+        <div class="section-task1_solution solution">0</div>
+      </div>
+      <!-- task 2 -->
+      <div class="section-task">
+        <div class="section-task2_task">
+          Task2: Чистый JS: сделать маску ввода на инпуте например для суммы с
+          копейками *.00 (если отличается от маски то не вводится ничего) Вместо
+          * любое количество цифр, там где 00 (это две любые цифры)
+        </div>
+        <div class="section-task2_solution solution">
+          <input
+            id="inputId"
+            type="tel"
+            autofocus
+            placeholder="Enter number"
+            class="input-number"
+            onkeyUp="clickInputHandler()"
+          />
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
